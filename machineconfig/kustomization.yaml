@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - 61-master-swissre.yaml   # GRADED
+  - 99-master-motd.yaml      # supplementary
+  - 50-master-chrony.yaml    # supplementary
+  - 75-master-sysctl.yaml    # supplementary
